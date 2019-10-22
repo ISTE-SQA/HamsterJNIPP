@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+.vs*/
+Debug/
+Release/
+doxygen/
+doxygen/**/
+html/**
+latex/
+*.idb
+*.bak
