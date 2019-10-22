@@ -1,0 +1,3834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\misc\UnsafeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\net\www\MessageHeaderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\calendar\BaseCalendar_DateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\calendar\CalendarDateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\calendar\BaseCalendarProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\calendar\EraProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\locale\ExtensionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\locale\BaseLocaleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\locale\LocaleExtensionsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\util\locale\BaseLocale_CacheProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\security\util\DebugProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\invoke\util\WrapperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\FieldAccessorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\ConstructorAccessorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\MethodAccessorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\ReflectionFactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\LangReflectAccessProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\tree\FieldTypeSignatureProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\repository\FieldRepositoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\repository\MethodRepositoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\repository\ClassRepositoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\repository\ConstructorRepositoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\generics\factory\GenericsFactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\reflect\annotation\AnnotationTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\nio\ch\InterruptibleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sun\nio\cs\StreamEncoderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\InvalidationListenerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\ObservableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\SimpleDoublePropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyListPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyIntegerWrapperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyBooleanWrapperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyBooleanPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyListWrapperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyObjectPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyObjectWrapperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyListWrapper_ReadOnlyPropertyImplProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyIntegerWrapper_ReadOnlyPropertyImplProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\PropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyBooleanWrapper_ReadOnlyPropertyImplProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyIntegerPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ObjectPropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\ReadOnlyObjectWrapper_ReadOnlyPropertyImplProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\property\DoublePropertyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\value\ChangeListenerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\value\ObservableValueProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\value\ObservableObjectValueProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\binding\BindingProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\binding\StringBindingProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\binding\BooleanBindingProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\beans\binding\ObjectExpressionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\ListChangeListener_ChangeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\ListChangeListenerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\ObservableListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\transformation\SortedList_ElementProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\transformation\FilteredListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javafx\collections\transformation\SortedListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\Proxy_TypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\FileNameMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\NetworkInterfaceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\SocketPermissionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddressImplProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\URLStreamHandlerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddress_CacheProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\URLProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\Inet4AddressProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\ContentHandlerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\SocketAddressProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InterfaceAddressProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\URIProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\ContentHandlerFactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddressProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\URLConnectionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\UrlDeserializedStateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddress_CacheEntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\ProxyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\URLStreamHandlerFactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddress_InetAddressHolderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\net\InetAddress_Cache_TypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LongSummaryStatisticsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\VectorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\HashtableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\IteratorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\ArrayListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\MapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\PrimitiveIterator_OfDoubleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Spliterator_OfDoubleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Locale_CacheProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LocaleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\StackProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Map_EntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Spliterator_OfLongProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\SetProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\PrimitiveIterator_OfIntProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LinkedHashMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\ListIteratorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Spliterator_OfPrimitiveProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Hashtable_EntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\SpliteratorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\OptionalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\ComparatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Spliterator_OfIntProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\TimeZoneProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LinkedHashMap_EntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\HashMap_NodeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\OptionalDoubleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\OptionalIntProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\EnumerationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LinkedList_NodeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\RandomProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Locale_CategoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\CollectionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\DateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\ListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\DoubleSummaryStatisticsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\HashMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\OptionalLongProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\LinkedListProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\SortedMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\FormatterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\IntSummaryStatisticsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\Locale_FilteringModeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\PrimitiveIterator_OfLongProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\IntStream_BuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\BaseStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\LongStream_BuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\DoubleStream_BuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\StreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\DoubleStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\LongStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\Collector_CharacteristicsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\Stream_BuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\CollectorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\stream\IntStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleToIntFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntPredicateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\FunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ObjLongConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntToDoubleFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoublePredicateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ObjIntConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToIntFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongSupplierProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongPredicateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\BinaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntSupplierProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\PredicateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToLongFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongToIntFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleToLongFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongUnaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongToDoubleFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntBinaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongBinaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntUnaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToLongBiFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntToLongFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\BiConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleSupplierProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleBinaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\UnaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToDoubleBiFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\BiFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ObjDoubleConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\IntConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\DoubleUnaryOperatorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToDoubleFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\LongConsumerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\ToIntBiFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\function\SupplierProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\regex\Pattern_NodeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\regex\PatternProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\regex\MatcherProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\regex\MatchResultProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\regex\Pattern_GroupHeadProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\CallableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMap_KeySetViewProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\Semaphore_SyncProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMap_CounterCellProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\FutureProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMap_EntrySetViewProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMap_ValuesViewProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ConcurrentHashMap_NodeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\ExecutorServiceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\SemaphoreProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\TimeUnitProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\atomic\AtomicLongProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\util\concurrent\atomic\AtomicIntegerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\ProtectionDomain_KeyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\CodeSourceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\ProviderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\Provider_ServiceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\AccessControlContextProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PermissionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\CodeSignerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\DomainCombinerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\ProtectionDomainProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PrivilegedActionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PrivilegedExceptionActionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PrincipalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PublicKeyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\Provider_ServiceKeyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\PermissionCollectionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\TimestampProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\cert\CertificateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\cert\CertificateFactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\cert\CRLProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\cert\CertPathProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\security\cert\CertificateFactorySpiProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\FilenameFilterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\BufferedWriterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\IOExceptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\ObjectStreamFieldProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\FileProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\FileSystemProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\WriterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\InputStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\OptionalDataExceptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\File_PathStatusProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\FileFilterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\OutputStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\PrintWriterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\PrintStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\CloseableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\OutputStreamWriterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\io\FileDescriptorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\math\BigIntegerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\ZonedDateTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\ZoneOffsetProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\DurationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\LocalDateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\PeriodProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\LocalDateTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\LocalTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\ZoneIdProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\OffsetTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\MonthProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\ClockProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\OffsetDateTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\DayOfWeekProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\InstantProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalAdjusterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalFieldProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\ValueRangeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalUnitProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalAccessorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalAmountProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\TemporalQueryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\temporal\ChronoFieldProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\ChronologyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\IsoEraProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\IsoChronologyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\ChronoLocalDateTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\ChronoZonedDateTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\ChronoLocalDateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\EraProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\chrono\ChronoPeriodProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\zone\ZoneOffsetTransitionRuleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\zone\ZoneOffsetTransitionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\zone\ZoneRulesProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\zone\ZoneOffsetTransitionRule_TimeDefinitionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\TextStyleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DateTimePrintContextProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DateTimeFormatterBuilder_CompositePrinterParserProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DateTimeFormatterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\ResolverStyleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\FormatStyleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DecimalStyleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DateTimeFormatterBuilder_DateTimePrinterParserProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\time\format\DateTimeParseContextProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\CharSequenceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThreadGroupProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\DoubleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ClassLoaderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThreadLocal_ThreadLocalMap_EntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ClassValue_ClassValueMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\PackageProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\Class_AnnotationDataProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ReflectiveOperationExceptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\RuntimePermissionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\NumberProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\AbstractStringBuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\StackTraceElementProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\RunnableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\IterableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThrowableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\AppendableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThreadLocal_ThreadLocalMapProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThreadProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\CharacterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ClassProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\IllegalAccessExceptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\BooleanProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\Thread_UncaughtExceptionHandlerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\IntegerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\StringBuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ClassValue_EntryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\LongProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\Thread_StateProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ThreadLocalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ObjectProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\StringBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ComparableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\SoftReferenceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\ReferenceQueue_LockProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\WeakReferenceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\ReferenceQueueProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\ReferenceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\ref\Reference_LockProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\InvokersProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\LambdaFormProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MethodHandleProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MemberNameProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MethodTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\LambdaForm_NameProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MethodHandleImpl_IntrinsicProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\LambdaForm_NamedFunctionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MethodType_ConcurrentWeakInternSetProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MethodTypeFormProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\MemberName_FactoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\invoke\LambdaForm_BasicTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\GenericDeclarationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\ParameterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\ParameterizedTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\FieldProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\MethodProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\ExecutableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\ConstructorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\AnnotatedTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\WildcardTypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\TypeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\reflect\TypeVariableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\annotation\RetentionPolicyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\lang\annotation\AnnotationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\LongBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\FloatBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\ByteBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\IntBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\MappedByteBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\CharBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\ShortBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\DoubleBufferProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\ByteOrderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\CopyOptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\WatchKeyProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\WatchEvent_ModifierProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\PathMatcherProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\WatchServiceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\DirectoryStream_FilterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\FileSystemProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\AccessModeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\OpenOptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\PathProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\WatchableProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\LinkOptionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\DirectoryStreamProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\WatchEvent_KindProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\FileStoreProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\GroupPrincipalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\UserPrincipalLookupServiceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\FileAttributeViewProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\FileAttributeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\FileTimeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\UserPrincipalProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\BasicFileAttributesProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\attribute\FileStoreAttributeViewProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\file\spi\FileSystemProviderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CoderResultProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CodingErrorActionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CharsetEncoderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CoderResult_CacheProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CharsetProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\CharsetDecoderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\charset\spi\CharsetProviderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\FileChannel_MapModeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\ChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\WritableByteChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\CompletionHandlerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\FileChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\ReadableByteChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\FileLockProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\SeekableByteChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\nio\channels\AsynchronousFileChannelProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\AttributedCharacterIterator_AttributeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\ParsePositionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\AttributedCharacterIteratorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\Format_FieldProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\FormatProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="java\text\FieldPositionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="javax\security\auth\SubjectProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\DirectionProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\SizeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationVectorProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\InputInterfaceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\GameLogProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\GameHamsterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\EditorHamsterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\ReadOnlyHamsterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\EditorTerritoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\ReadOnlyTerritoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\GameTerritoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TileProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TerritoryBuilderProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandSpecificationProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStack_ModeProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStackProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterGameProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\TerritoryProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="com\sun\javafx\binding\BindingHelperObserverProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="com\sun\javafx\binding\ExpressionHelperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="com\sun\javafx\collections\SortHelperProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\misc\UnsafeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\misc\UnsafeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\net\www\MessageHeaderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\net\www\MessageHeaderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\BaseCalendarProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\EraProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\EraProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\CalendarDateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\BaseCalendarProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\BaseCalendar_DateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\CalendarDateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\calendar\BaseCalendar_DateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\BaseLocaleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\BaseLocale_CacheProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\LocaleExtensionsProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\BaseLocaleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\ExtensionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\LocaleExtensionsProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\BaseLocale_CacheProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\util\locale\ExtensionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\security\util\DebugProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\security\util\DebugProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\invoke\util\WrapperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\invoke\util\WrapperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\FieldAccessorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\LangReflectAccessProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\FieldAccessorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\LangReflectAccessProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\ReflectionFactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\ConstructorAccessorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\MethodAccessorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\ReflectionFactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\ConstructorAccessorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\MethodAccessorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\tree\FieldTypeSignatureProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\tree\FieldTypeSignatureProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\MethodRepositoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\ClassRepositoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\MethodRepositoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\FieldRepositoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\ConstructorRepositoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\FieldRepositoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\ClassRepositoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\repository\ConstructorRepositoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\factory\GenericsFactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\generics\factory\GenericsFactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\annotation\AnnotationTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\reflect\annotation\AnnotationTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\nio\ch\InterruptibleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\nio\ch\InterruptibleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\nio\cs\StreamEncoderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sun\nio\cs\StreamEncoderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\ObservableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\ObservableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\InvalidationListenerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\InvalidationListenerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ObjectPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\DoublePropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ObjectPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\SimpleDoublePropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerWrapperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanWrapper_ReadOnlyPropertyImplProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectWrapperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectWrapperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanWrapperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanWrapper_ReadOnlyPropertyImplProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectWrapper_ReadOnlyPropertyImplProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerWrapperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListWrapper_ReadOnlyPropertyImplProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\PropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListWrapperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\SimpleDoublePropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListWrapperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerWrapper_ReadOnlyPropertyImplProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerWrapper_ReadOnlyPropertyImplProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyIntegerPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\PropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanWrapperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectWrapper_ReadOnlyPropertyImplProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyListWrapper_ReadOnlyPropertyImplProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\DoublePropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyObjectPropertyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\property\ReadOnlyBooleanPropertyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ChangeListenerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ObservableObjectValueProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ObservableObjectValueProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ObservableValueProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ChangeListenerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\value\ObservableValueProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\StringBindingProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\StringBindingProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\BooleanBindingProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\BindingProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\BooleanBindingProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\BindingProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\ObjectExpressionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\beans\binding\ObjectExpressionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ListChangeListenerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ListChangeListener_ChangeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ListChangeListenerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ObservableListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ObservableListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\ListChangeListener_ChangeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\SortedList_ElementProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\SortedListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\FilteredListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\SortedList_ElementProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\FilteredListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javafx\collections\transformation\SortedListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URIProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\FileNameMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InterfaceAddressProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\Proxy_TypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddressProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\FileNameMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_Cache_TypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\UrlDeserializedStateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\SocketAddressProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLConnectionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_CacheEntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddressImplProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLStreamHandlerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ContentHandlerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLStreamHandlerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\SocketPermissionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddressProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLStreamHandlerFactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ContentHandlerFactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_CacheProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\UrlDeserializedStateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\Proxy_TypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ContentHandlerFactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_InetAddressHolderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddressImplProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\Inet4AddressProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\SocketPermissionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\Inet4AddressProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_CacheProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLStreamHandlerFactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_CacheEntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\NetworkInterfaceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ProxyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ContentHandlerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InterfaceAddressProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\SocketAddressProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLConnectionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URIProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_InetAddressHolderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\URLProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\InetAddress_Cache_TypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\ProxyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\net\NetworkInterfaceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ComparatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\RandomProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfIntProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalIntProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\StackProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfDoubleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SetProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\IntSummaryStatisticsProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_CacheProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfPrimitiveProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalDoubleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\FormatterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\CollectionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedHashMap_EntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\DateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\VectorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\VectorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\IteratorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_FilteringModeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashtableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalLongProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\DateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_CategoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalIntProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LocaleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\IntSummaryStatisticsProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SetProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfLongProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_CategoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfPrimitiveProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SortedMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfDoubleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LongSummaryStatisticsProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_FilteringModeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Map_EntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashMap_NodeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\TimeZoneProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedHashMap_EntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfIntProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashMap_NodeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ComparatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfDoubleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\TimeZoneProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\FormatterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\MapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\CollectionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\EnumerationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedHashMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Hashtable_EntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfLongProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ListIteratorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\HashtableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Locale_CacheProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\DoubleSummaryStatisticsProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ListIteratorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\EnumerationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedHashMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\MapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LocaleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedList_NodeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfIntProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Hashtable_EntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalDoubleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ArrayListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Map_EntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfIntProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LongSummaryStatisticsProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\Spliterator_OfLongProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\LinkedList_NodeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SpliteratorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\StackProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SpliteratorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\SortedMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\IteratorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfDoubleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ListProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\DoubleSummaryStatisticsProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\PrimitiveIterator_OfLongProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\ArrayListProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\OptionalLongProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\RandomProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\BaseStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\IntStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\Stream_BuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\DoubleStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\StreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\IntStream_BuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\StreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\IntStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\CollectorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\LongStream_BuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\DoubleStream_BuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\DoubleStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\DoubleStream_BuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\CollectorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\Stream_BuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\Collector_CharacteristicsProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\LongStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\Collector_CharacteristicsProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\LongStream_BuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\LongStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\IntStream_BuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\stream\BaseStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\FunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjLongConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongToIntFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BiConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BiFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleUnaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToLongBiFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToDoubleFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BiConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\SupplierProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntToDoubleFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntBinaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongToIntFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToIntBiFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntToLongFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToIntBiFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\UnaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BiFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongBinaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\UnaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BinaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleUnaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToDoubleFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjDoubleConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\PredicateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleToLongFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\PredicateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleSupplierProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToDoubleBiFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntUnaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntToLongFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongPredicateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoublePredicateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoublePredicateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntUnaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToLongBiFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleToIntFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongBinaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToDoubleBiFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToLongFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjIntConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleSupplierProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\FunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongPredicateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjDoubleConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleBinaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongSupplierProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToIntFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntPredicateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToLongFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ToIntFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleBinaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\SupplierProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongUnaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\BinaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntSupplierProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntPredicateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongToDoubleFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntSupplierProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntToDoubleFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongUnaryOperatorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongToDoubleFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleToIntFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjIntConsumerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\IntBinaryOperatorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\LongSupplierProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\ObjLongConsumerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleToLongFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\function\DoubleFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\MatchResultProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\MatchResultProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\MatcherProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\Pattern_NodeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\Pattern_NodeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\MatcherProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\Pattern_GroupHeadProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\PatternProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\Pattern_GroupHeadProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\regex\PatternProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_ValuesViewProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\Semaphore_SyncProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\SemaphoreProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\CallableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_EntrySetViewProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_CounterCellProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ExecutorServiceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\TimeUnitProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_NodeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_NodeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\Semaphore_SyncProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\CallableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\SemaphoreProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\TimeUnitProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\FutureProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\FutureProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_ValuesViewProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_KeySetViewProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_CounterCellProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ExecutorServiceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_EntrySetViewProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\ConcurrentHashMap_KeySetViewProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\atomic\AtomicLongProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\atomic\AtomicIntegerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\atomic\AtomicLongProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\util\concurrent\atomic\AtomicIntegerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProtectionDomain_KeyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\TimestampProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrivilegedExceptionActionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrivilegedActionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PermissionCollectionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\CodeSourceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\DomainCombinerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PermissionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\Provider_ServiceKeyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\AccessControlContextProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrincipalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\CodeSignerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrincipalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PublicKeyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProtectionDomainProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\AccessControlContextProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrivilegedActionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProviderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PermissionCollectionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\CodeSignerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\Provider_ServiceKeyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\DomainCombinerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProviderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PublicKeyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PrivilegedExceptionActionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProtectionDomainProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\Provider_ServiceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\CodeSourceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\PermissionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\TimestampProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\Provider_ServiceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\ProtectionDomain_KeyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CRLProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateFactorySpiProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateFactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateFactorySpiProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertPathProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CRLProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertPathProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\security\cert\CertificateFactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\File_PathStatusProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileSystemProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OutputStreamWriterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileFilterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\BufferedWriterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FilenameFilterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\WriterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\PrintStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\ObjectStreamFieldProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileFilterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OptionalDataExceptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\CloseableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\IOExceptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\ObjectStreamFieldProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OutputStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\PrintWriterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileSystemProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\WriterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\File_PathStatusProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\CloseableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\InputStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\PrintWriterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OutputStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OutputStreamWriterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\InputStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\PrintStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FilenameFilterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\BufferedWriterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\IOExceptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileDescriptorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\FileDescriptorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\io\OptionalDataExceptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\math\BigIntegerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\math\BigIntegerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZoneIdProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ClockProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZoneIdProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\OffsetDateTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\PeriodProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\OffsetTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\InstantProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalDateTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalDateTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\PeriodProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\DurationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalDateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\MonthProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\DayOfWeekProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\DurationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZonedDateTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZoneOffsetProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\OffsetDateTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\OffsetTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZonedDateTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\InstantProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\DayOfWeekProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ClockProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\ZoneOffsetProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\MonthProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\LocalDateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalQueryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAdjusterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalFieldProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalQueryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\ValueRangeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAmountProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAmountProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalUnitProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\ValueRangeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalFieldProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAccessorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAccessorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalAdjusterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\ChronoFieldProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\TemporalUnitProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\temporal\ChronoFieldProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoZonedDateTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronologyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoLocalDateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoLocalDateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronologyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\EraProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoPeriodProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\IsoEraProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\EraProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoLocalDateTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\IsoChronologyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\IsoChronologyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\IsoEraProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoLocalDateTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoPeriodProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\chrono\ChronoZonedDateTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionRule_TimeDefinitionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionRuleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneRulesProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionRuleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneOffsetTransitionRule_TimeDefinitionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\zone\ZoneRulesProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterBuilder_CompositePrinterParserProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimePrintContextProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\FormatStyleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeParseContextProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\ResolverStyleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterBuilder_DateTimePrinterParserProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\TextStyleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterBuilder_DateTimePrinterParserProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeParseContextProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\TextStyleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimeFormatterBuilder_CompositePrinterParserProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DecimalStyleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\ResolverStyleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DecimalStyleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\DateTimePrintContextProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\time\format\FormatStyleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassLoaderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StringBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocal_ThreadLocalMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassValue_EntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ReflectiveOperationExceptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThrowableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ReflectiveOperationExceptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ComparableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IterableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\DoubleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Thread_StateProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\NumberProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StringBuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StringBuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\RuntimePermissionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\AppendableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IntegerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\PackageProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocal_ThreadLocalMap_EntryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Thread_StateProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassLoaderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\CharacterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Class_AnnotationDataProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\DoubleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Thread_UncaughtExceptionHandlerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Class_AnnotationDataProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\NumberProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThrowableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\LongProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassValue_EntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassValue_ClassValueMapProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadGroupProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\AbstractStringBuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StackTraceElementProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StackTraceElementProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\StringBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\CharSequenceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocal_ThreadLocalMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\CharacterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\BooleanProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadGroupProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\RuntimePermissionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ObjectProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\CharSequenceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\BooleanProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\PackageProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IntegerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\Thread_UncaughtExceptionHandlerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\AbstractStringBuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ThreadLocal_ThreadLocalMap_EntryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IllegalAccessExceptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ComparableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\AppendableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\RunnableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IterableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\LongProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\IllegalAccessExceptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ObjectProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ClassValue_ClassValueMapProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\RunnableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\WeakReferenceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\SoftReferenceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\WeakReferenceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceQueue_LockProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\Reference_LockProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\Reference_LockProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceQueue_LockProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceQueueProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\ReferenceQueueProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\ref\SoftReferenceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_NamedFunctionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MemberNameProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodHandleProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_BasicTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MemberNameProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\InvokersProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodTypeFormProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaFormProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaFormProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\InvokersProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MemberName_FactoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_NameProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_NamedFunctionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_BasicTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodType_ConcurrentWeakInternSetProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodHandleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodTypeFormProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodType_ConcurrentWeakInternSetProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MemberName_FactoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\LambdaForm_NameProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodHandleImpl_IntrinsicProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\invoke\MethodHandleImpl_IntrinsicProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\AnnotatedTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\TypeVariableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\GenericDeclarationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\MethodProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ConstructorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\TypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ParameterizedTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ParameterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ParameterizedTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\AnnotatedTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\TypeVariableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\WildcardTypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\TypeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\MethodProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ConstructorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\GenericDeclarationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\WildcardTypeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ExecutableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\FieldProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\FieldProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ExecutableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\reflect\ParameterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\annotation\AnnotationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\annotation\RetentionPolicyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\annotation\RetentionPolicyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\lang\annotation\AnnotationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\MappedByteBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\LongBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\LongBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\FloatBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\MappedByteBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\DoubleBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\DoubleBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\CharBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ShortBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\IntBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\FloatBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\CharBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ByteOrderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ByteBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ByteOrderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ByteBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\IntBufferProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\ShortBufferProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\AccessModeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\DirectoryStream_FilterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\FileSystemProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\LinkOptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchKeyProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchServiceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchableProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchEvent_KindProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\DirectoryStreamProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\OpenOptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\AccessModeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchServiceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\FileSystemProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchEvent_KindProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\PathProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchEvent_ModifierProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\OpenOptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\PathProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\PathMatcherProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchableProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\FileStoreProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchKeyProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\CopyOptionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\LinkOptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\CopyOptionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\DirectoryStream_FilterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\FileStoreProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\PathMatcherProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\DirectoryStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\WatchEvent_ModifierProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\GroupPrincipalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\UserPrincipalProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\GroupPrincipalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileTimeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\BasicFileAttributesProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileAttributeViewProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\BasicFileAttributesProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\UserPrincipalLookupServiceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileStoreAttributeViewProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileAttributeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileAttributeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileStoreAttributeViewProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileAttributeViewProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\UserPrincipalProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\FileTimeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\attribute\UserPrincipalLookupServiceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\spi\FileSystemProviderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\file\spi\FileSystemProviderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetEncoderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetEncoderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetDecoderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CodingErrorActionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CoderResultProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetDecoderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CoderResultProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CodingErrorActionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CharsetProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CoderResult_CacheProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\CoderResult_CacheProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\spi\CharsetProviderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\charset\spi\CharsetProviderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\WritableByteChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\WritableByteChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileLockProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\ReadableByteChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileChannel_MapModeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\SeekableByteChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileChannel_MapModeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\ChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\CompletionHandlerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\ReadableByteChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileLockProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\CompletionHandlerProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\AsynchronousFileChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\FileChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\ChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\AsynchronousFileChannelProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\nio\channels\SeekableByteChannelProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\ParsePositionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\FormatProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\ParsePositionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\Format_FieldProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\FieldPositionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\FormatProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\Format_FieldProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\AttributedCharacterIterator_AttributeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\AttributedCharacterIterator_AttributeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\AttributedCharacterIteratorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\AttributedCharacterIteratorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="java\text\FieldPositionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javax\security\auth\SubjectProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="javax\security\auth\SubjectProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\DirectionProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationVectorProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\DirectionProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\SizeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\SizeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\datatypes\LocationVectorProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\GameLogProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\GameLogProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\InputInterfaceProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\InputInterfaceProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\GameHamsterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\EditorHamsterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\ReadOnlyHamsterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\ReadOnlyHamsterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\EditorHamsterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\hamster\GameHamsterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TerritoryBuilderProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\ReadOnlyTerritoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\EditorTerritoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\GameTerritoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TileProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\ReadOnlyTerritoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\EditorTerritoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\GameTerritoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TileProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\internal\model\territory\TerritoryBuilderProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandSpecificationProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStackProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStack_ModeProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandSpecificationProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStackProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\GameCommandStack_ModeProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\commands\CommandProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterGameProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterGameProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\HamsterProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\TerritoryProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de\unistuttgart\iste\rss\oo\hamstersimulator\external\model\TerritoryProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\binding\BindingHelperObserverProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\binding\ExpressionHelperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\binding\BindingHelperObserverProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\binding\ExpressionHelperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\collections\SortHelperProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\sun\javafx\collections\SortHelperProxyForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

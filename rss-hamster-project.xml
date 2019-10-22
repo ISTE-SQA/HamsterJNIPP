@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project cppOutputDir="." javaOutputDir="." name="rss-hamster" targetName="rss-hamster" targetType="exe" usePartialSpec="false">
+	<proxygen attributeGetters="false" attributeSetters="false" innerClasses="false" recursionLevel="0" useInheritance="false" useRichTypes="true">
+		<input-classes>
+			<input-class name="de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Hamster"/>
+			<input-class name="de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.HamsterGame"/>
+		</input-classes>
+	</proxygen>
+	<nmakefile name="rss-hamster.mak"/>
+</project>
