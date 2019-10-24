@@ -55,6 +55,7 @@ __declspec(dllexport) void write(const char* message);
 __declspec(dllexport) void write(HamsterSpec hamster, const char* message);
 __declspec(dllexport) void writef(const char* format, ... );
 __declspec(dllexport) void writef(HamsterSpec hamster, const char* format, ... );
+__declspec(dllexport) bool gameIsActive();
 __declspec(dllexport) HamsterGameProxy* hamsterGame;
 __declspec(dllexport) HamsterProxy* paule;
 

@@ -49,7 +49,9 @@ HamsterSpec addHamster(int row, int column, int direction, int grainCount) {
 }
 
 void releaseHamster(HamsterSpec hamster) {
-	delete hamster.referencedHamster;
+	if (hamsterGame) {
+		delete hamster.referencedHamster;
+	}
 	hamster.referencedHamster = nullptr;
 }
 
@@ -290,4 +292,8 @@ void writef(HamsterSpec hamster, const char* message_template, ... ) {
     vsnprintf(buffer, 1000, message_template, args);
 	write(hamster, buffer);
     va_end(args);
+}
+
+bool gameIsActive() {
+	return hamsterGame != nullptr;
 }

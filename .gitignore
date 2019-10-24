@@ -40,3 +40,4 @@ html/**
 latex/
 *.idb
 *.bak
+/**/.DS_Store

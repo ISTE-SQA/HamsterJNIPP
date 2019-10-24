@@ -24,8 +24,8 @@ class Location
 {
 public:
 	/*! Constructor of a location. It is initialized by a row and column. 
-	* Both row and colum need to be equal or larger than 1 and equal or less
-	* than the respecitve size 
+	* Both row and colum need to be equal or larger than 0 and equal or less
+	* than the respecitve size-1 
 	*/
 	Location(const int row, const int column)
 	{
@@ -57,14 +57,25 @@ public:
 	Hamster(const Location &location, const Direction direction, const int grainCount)
 	{
 		myHamster = addHamster(location.getRow(), location.getColumn(), static_cast<int>(direction), grainCount);
+		refCounter = new int;
+		*refCounter = 1;
 	};
+	//! Copy constructor
+	Hamster(const Hamster& other) {
+		this->refCounter = other.refCounter;
+		this->myHamster = other.myHamster;
+		(*refCounter)++;
+	}
 	//! Hamster destructor
 	/*! Destructor of this hamster object. The hamster's ressources are freed up, but the hamster itself
 	* will stay on the territory. */
 	~Hamster()
 	{
-		write(myHamster, "Hamster is being released");
-		releaseHamster(myHamster);
+		(*refCounter)--;
+		if (*refCounter == 0 && gameIsActive()) {
+			write(myHamster, "Hamster is being released");
+			releaseHamster(myHamster);
+		}
 	};
 	//! Let this hamster object make a step towards its looking direction
 	void move()
@@ -98,5 +109,6 @@ public:
 	};
 
 private:
+	int* refCounter;
 	HamsterSpec myHamster;
 };
