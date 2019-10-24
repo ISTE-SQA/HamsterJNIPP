@@ -1,14 +1,20 @@
 #pragma once
 #include "rss-hamster.h"
 
-//! The cardinal directions
-/*! Enumeration of the four different values of the cardinal directions */
-enum class Direction
+/** @file */
+
+/** 
+* @enum Direction 
+* @brief The cardinal directions 
+*
+* Enumeration of the four different values of the cardinal directions
+*/
+enum class Direction : int
 {
-	WEST = 0,  /*! West direction */
-	NORTH = 1, /*! North direction */
-	EAST = 2,  /*! East direction */
-	SOUTH = 3  /*! South direction */
+	WEST = 0,  /**< West direction, i.e., hamster looking to the left */
+	NORTH = 1, /**< North direction, i.e., hamster looking to the top */
+	EAST = 2,  /**< East direction, i.e., hamster looking to the right */
+	SOUTH = 3  /**< South direction, i.e., hamster looking to the bottom */
 };
 
 //! A location on the hamster territory
@@ -81,12 +87,12 @@ public:
 		::pickGrain(myHamster);
 	};
 	//! Can the hamster make a move? \return true if the hamster is allowed to make a move
-	bool frontIsClear()
+	bool frontIsClear() const
 	{
 		return ::frontIsClear(myHamster);
 	};
 	//! Is a grain on the current tile? \return true if the current hamster tile has a grain on it
-	bool grainAvailable()
+	bool grainAvailable() const
 	{
 		return ::grainAvailable(myHamster);
 	};
